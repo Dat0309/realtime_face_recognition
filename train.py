@@ -2,7 +2,7 @@ import os
 import cv2 as cv
 import numpy as np
 
-people = ['Hai', 'Trong Dat', 'stranger', 'Tri']
+people = ['Hai', 'Trong Dat', 'stranger', 'Tri','Hieu']
 DIR = r'C:\Users\ADMIN\Desktop\face'
 
 haar_cascade = cv.CascadeClassifier(r'C:\Users\ADMIN\Desktop\haar_face.xml')

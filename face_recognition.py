@@ -3,7 +3,7 @@ import numpy as np
 
 haar_cascade = cv.CascadeClassifier(r'C:\Users\ADMIN\Desktop\haar_face.xml')
 
-people = ['Hai', 'Trong Dat', 'stranger', 'Tri']
+people = ['Hai', 'Trong Dat', 'stranger', 'Tri','Hieu']
 
 face_recognizer = cv.face.LBPHFaceRecognizer_create()
 face_recognizer.read('face_trained.yml')
